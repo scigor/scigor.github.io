@@ -22,7 +22,7 @@ This creates the .md file and a folder containing all the plot images. The basic
   
   **\[/edit\]**
   
-* to enable code to be syntax highlighted it requires three ticks and the language name (python) at the beginning of the code block and three ticks at the end. Currently i have to add them manually. Here is the result with and without ticks.
+* To enable code to be syntax highlighted it requires three ticks and the language name (python) at the beginning of the code block and three tics at the end. Currently i have to add them manually. Here is the result with and without tics.
 
 without:
 
