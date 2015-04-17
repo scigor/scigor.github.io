@@ -9,6 +9,19 @@ The conversion can be done very easily by running
 This creates the .md file and a folder containing all the plot images. The basic functionality is there as you can see below. But there are some issues. 
 
 * latex formulas are not converted to images $$ y = x^2 $$. 
+
+  **\[edit\]**
+  
+  I was able to fix this issue thanks to the post by [Christopher Poole](http://christopherpoole.github.io/using-mathjax-on-github-pages/). Apperently there is a javascript library, which is able to render latex called [MathJax](https://www.mathjax.org/). The solution is incredibly simple just add the following lines to your `_layouts/post.html`.
+  
+  ```javascript
+      <script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      </script>
+  ```
+  
+  **\[/edit\]**
+  
 * to enable code to be syntax highlighted it requries three ticks and the language name (python) at the beginning of the code block and three ticks at the end. Currently i have to add them manually. Here is the result with and without ticks.
 
 without:
